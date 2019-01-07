@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="70" id="c4V-kT-nkq" customClass="SpaceTableViewCell" customModule="McCMedia" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" multipleTouchEnabled="YES" contentMode="center" tableViewCell="c4V-kT-nkq" id="o0E-rT-DeK">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="69.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4wp-c4-JE2">
+                        <rect key="frame" x="0.0" y="34.5" width="375" height="1"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="PBJ-TU-5g9"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="4wp-c4-JE2" firstAttribute="centerY" secondItem="o0E-rT-DeK" secondAttribute="centerY" id="13d-1D-pa9"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="4wp-c4-JE2" secondAttribute="bottom" id="9rz-yr-8rV"/>
+                    <constraint firstItem="4wp-c4-JE2" firstAttribute="top" relation="greaterThanOrEqual" secondItem="o0E-rT-DeK" secondAttribute="top" id="cNy-Hy-E3c"/>
+                    <constraint firstAttribute="trailing" secondItem="4wp-c4-JE2" secondAttribute="trailing" id="fK4-AN-bOE"/>
+                    <constraint firstItem="4wp-c4-JE2" firstAttribute="leading" secondItem="o0E-rT-DeK" secondAttribute="leading" id="roq-xl-f8E"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="spacerView" destination="4wp-c4-JE2" id="Wpb-aL-BAg"/>
+            </connections>
+            <point key="canvasLocation" x="-31" y="24"/>
+        </tableViewCell>
+    </objects>
+</document>

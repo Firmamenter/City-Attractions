@@ -1,0 +1,24 @@
+PODS:
+  - DLRadioButton (1.4.12)
+  - Eureka (4.3.0)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - DLRadioButton (~> 1.4)
+  - Eureka
+  - SVProgressHUD (~> 2.2)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - DLRadioButton
+    - Eureka
+    - SVProgressHUD
+
+SPEC CHECKSUMS:
+  DLRadioButton: d7c4e225ed0e8013cef7be61455230c7557ad7c1
+  Eureka: 6d711cb30ca333b4bc893110285a722ae3840114
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: 512992bdf7f92070f8cde2e315c1402f83f05103
+
+COCOAPODS: 1.5.3
